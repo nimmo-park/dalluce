@@ -7,7 +7,8 @@ import com.main.dalluce.dao.MemberDAO;
 
 @Service
 public class MemberServiceImp implements MemberService {
-    @Autowired
+    
+	@Autowired
     MemberDAO memberDao;
     
     @Override

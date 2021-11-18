@@ -2,7 +2,8 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.main.dalluce.dao.MemberDAO">
+<!-- <mapper namespace="com.main.dalluce.dao.MemberDAO"> -->
+<mapper namespace="com.main.dalluce.mappers.MemberMapper">
   <select id="getEmail" resultType="String">
     select now()
   </select>
